@@ -1,4 +1,4 @@
-FROM hivecell/pysyft:v0.2.9
+FROM hivecell/pysyft:latest
 
 RUN mkdir /app
 WORKDIR /app

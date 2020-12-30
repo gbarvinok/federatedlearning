@@ -1,7 +1,7 @@
 version: '3'
 services:
   network:
-    image: hivecell/pygrid-network:v0.2.9 
+    image: hivecell/pygrid-network:latest 
     build: ./apps/network
     environment:
       - PORT=7000
@@ -11,7 +11,7 @@ services:
       - 7000:7000
 
   alice:
-    image: hivecell/pygrid-node:v0.2.9 
+    image: hivecell/pygrid-node:latest 
     build: ./apps/node
     environment:
       - NODE_ID=Alice
@@ -26,7 +26,7 @@ services:
       - 5000:5000
 
   bob:
-    image: hivecell/pygrid-node:v0.2.9 
+    image: hivecell/pygrid-node:latest 
     build: ./apps/node
     environment:
       - NODE_ID=Bob
@@ -41,7 +41,7 @@ services:
       - 5001:5001
 
   charlie:
-    image: hivecell/pygrid-node:v0.2.9
+    image: hivecell/pygrid-node:latest
     build: ./apps/node
     environment:
       - NODE_ID=Charlie
@@ -56,7 +56,7 @@ services:
       - 5002:5002
 
   dan:
-    image: hivecell/pygrid-node:v0.2.9
+    image: hivecell/pygrid-node:latest
     build: ./apps/node
     environment:
       - NODE_ID=Dan
@@ -71,7 +71,7 @@ services:
       - 5003:5003
 
   jupyter:
-    image: hivecell/pysyft:v0.2.9-notebook
+    image: hivecell/pysyft:notebook
     build: ./apps/notebook
     ports:
       - 8888:8888
