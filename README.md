@@ -72,10 +72,10 @@ Just modify `/etc/docker/daemon.json` file to add default. File will looks like:
 
 The latest Hivecell PyGrid images are also available on the Docker Hub.
 
-- [Hivecell PySyft - `hivecell/pysyft:latest`](https://hub.docker.com/repository/docker/hivecell/pysyft)
+- [Hivecell PySyft - `hivecell/pysyft:latest`](https://hub.docker.com/r/hivecell/pysyft)
 - [Hivecell PySyft Notebook - `hivecell/pysyft:notebook`](https://hub.docker.com/r/hivecell/pysyft/tags?page=1&ordering=last_updated&name=notebook)
 - [Hivecell PyGrid Network - `hivecell/pygrid-network`](https://hub.docker.com/r/hivecell/pygrid-network)
-- [Hivecell PyGrid Node - `hivecell/pygrid-node`](https://hub.docker.com/repository/docker/hivecell/pygrid-node)
+- [Hivecell PyGrid Node - `hivecell/pygrid-node`](https://hub.docker.com/r/hivecell/pygrid-node)
 
 To download latest docker container just run:
 
